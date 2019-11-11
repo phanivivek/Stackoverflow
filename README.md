@@ -1,21 +1,25 @@
-# STACKOVERFLOW
+# Multiclass Multilabel Prediction For StackOverflow Questions
 
-Multiclass Multilabel Prediction For StackOverflow Questions
-Data set : https://www.kaggle.com/therajeshreddy/stackoverflow
 
-Objective : Given text for Questions from StackoverFlow posts, predict tags associated with them.
+### Data set : 
+https://www.kaggle.com/therajeshreddy/stackoverflow
+
+### Objective : 
+Given text for Questions from StackoverFlow posts, predict tags associated with them.
 
 This is a scaled down version of predecting only top 10 most occurring tags
 
-Programming Language : Python using nltk & Keras
+### Programming Language : 
+Python using nltk & Keras
 
-Model Architecture : Deep Learning using Recurrent Neural Network (RNN)
+### Model Architecture : 
+Deep Learning using Recurrent Neural Network (RNN)
 
-About Data Set
+## About Data Set
 
 Dataset has text of questions, answers and thier corresponding tags from the Stack Overflow programming Q&A website.
 
-This is organized as three files:
+### This is organized as three files:
 
 Questions contains the title, body, creation date, closed date (if applicable), score, and owner ID for all non-deleted Stack Overflow questions.
 
